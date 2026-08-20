@@ -8,6 +8,9 @@
     <string name="team_1_add">Team 1 +1</string>
     <string name="team_2_add">Team 2 +1</string>
 
+    <string name="truco_1">Truco! (1)</string>
+
+    <string name="hand_11">Hand 11!</string>
     <string name="winner_message">Winner!</string>
     <string name="reset_game">Reset Game</string>
 </resources>
