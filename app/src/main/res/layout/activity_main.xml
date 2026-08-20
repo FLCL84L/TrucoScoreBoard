@@ -54,4 +54,43 @@
         app:layout_constraintStart_toStartOf="@id/team2Name"
         app:layout_constraintTop_toBottomOf="@id/team2Name" />
 
+    <Button
+        android:id="@+id/team1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/team_1_add"
+        app:layout_constraintEnd_toEndOf="@id/team1Score"
+        app:layout_constraintStart_toStartOf="@id/team1Score"
+        app:layout_constraintTop_toBottomOf="@id/team1Score" />
+
+    <Button
+        android:id="@+id/team2Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/team_2_add"
+        app:layout_constraintEnd_toEndOf="@id/team2Score"
+        app:layout_constraintStart_toStartOf="@id/team2Score"
+        app:layout_constraintTop_toBottomOf="@id/team2Score" />
+
+    <TextView
+        android:id="@+id/winnerMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/winner_message"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/team1Button" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_game"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/winnerMessage" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

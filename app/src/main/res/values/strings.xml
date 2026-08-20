@@ -4,4 +4,10 @@
     <string name="team_1">Team 1</string>
     <string name="team_2">Team 2</string>
     <string name="zero">0</string>
+
+    <string name="team_1_add">Team 1 +1</string>
+    <string name="team_2_add">Team 2 +1</string>
+
+    <string name="winner_message">Winner!</string>
+    <string name="reset_game">Reset Game</string>
 </resources>
