@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "br.edu.ifsp.scl.sc3047784.trucoscoreboard"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "br.edu.ifsp.scl.sc3047784.trucoscoreboard"
